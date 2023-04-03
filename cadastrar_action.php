@@ -22,11 +22,9 @@ if($nome && $email){
         exit;
     }else {
         header("Location: cadastrar.php");
+    }}else {
+        header("Location: cadastrar.php");
+        exit;
     }
-    
-}else {
-    header("Location: cadastrar.php");
-    exit;
-}
 
 ?>
